@@ -1,0 +1,29 @@
+html {
+    background-color: #fec99a81;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+align-items: center;
+}
+
+.links{
+    display: flex;
+    gap: 30px;
+}
+.links a:hover, a:active {
+    color: black;
+    cursor: pointer ;
+}
+
+.links a:link, a:visited {
+    color: black;
+}
+
+img {
+    width: 800px;
+}
+
